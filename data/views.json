@@ -1,0 +1,1028 @@
+{
+  "version": "1.0",
+  "schema_note": "Each entry represents one user-item interaction. item_snapshot caches key fields so the recommendation model does not need to join with catalogue.json. engagement_score is a 0-10 composite feature: views(x1) + wishlist(+2) + cart(+3) + purchase(+5) + discount(+1).",
+  "behaviour_log": [
+    {
+      "user_id": "usr-001",
+      "item_id": "product-007",
+      "item_snapshot": {
+        "category": "ethnic",
+        "sub_category": "kurta",
+        "gender": "unisex",
+        "age_group": [
+          "18-24"
+        ],
+        "price": 1020,
+        "in_stock": true
+      },
+      "events": [
+        {
+          "event_type": "view",
+          "timestamp": "2026-06-11T09:00:00Z",
+          "session_id": "sess-abc0"
+        },
+        {
+          "event_type": "view",
+          "timestamp": "2026-06-11T09:35:00Z",
+          "session_id": "sess-def1"
+        },
+        {
+          "event_type": "view",
+          "timestamp": "2026-06-11T10:35:00Z",
+          "session_id": "sess-ghi2"
+        }
+      ],
+      "view_count": 3,
+      "wishlist": true,
+      "cart_added": false,
+      "purchased": false,
+      "in_stock_when_viewed": true,
+      "related_products": [
+        "product-020",
+        "product-048",
+        "product-014",
+        "product-024"
+      ],
+      "discount_triggered": true,
+      "discount_code": "PRIYA10",
+      "discounted_price": 918,
+      "engagement_score": 6.0,
+      "last_event_at": "2026-06-11T10:35:00Z",
+      "first_seen_at": "2026-06-11T09:00:00Z"
+    },
+    {
+      "user_id": "usr-001",
+      "item_id": "product-020",
+      "item_snapshot": {
+        "category": "ethnic",
+        "sub_category": "kurta",
+        "gender": "female",
+        "age_group": [
+          "18-24"
+        ],
+        "price": 655,
+        "in_stock": true
+      },
+      "events": [
+        {
+          "event_type": "view",
+          "timestamp": "2026-06-11T09:05:00Z",
+          "session_id": "sess-abc0"
+        },
+        {
+          "event_type": "cart_add",
+          "timestamp": "2026-06-11T09:06:00Z",
+          "session_id": "sess-abc0"
+        }
+      ],
+      "view_count": 1,
+      "wishlist": false,
+      "cart_added": true,
+      "purchased": false,
+      "in_stock_when_viewed": true,
+      "related_products": [
+        "product-032",
+        "product-024"
+      ],
+      "discount_triggered": false,
+      "discount_code": null,
+      "discounted_price": null,
+      "engagement_score": 4.0,
+      "last_event_at": "2026-06-11T09:06:00Z",
+      "first_seen_at": "2026-06-11T09:05:00Z"
+    },
+    {
+      "user_id": "usr-001",
+      "item_id": "product-032",
+      "item_snapshot": {
+        "category": "ethnic",
+        "sub_category": "kurta",
+        "gender": "unisex",
+        "age_group": [
+          "18-24",
+          "25-34"
+        ],
+        "price": 493,
+        "in_stock": true
+      },
+      "events": [
+        {
+          "event_type": "view",
+          "timestamp": "2026-06-11T09:10:00Z",
+          "session_id": "sess-abc0"
+        },
+        {
+          "event_type": "wishlist_add",
+          "timestamp": "2026-06-11T09:11:00Z",
+          "session_id": "sess-abc0"
+        }
+      ],
+      "view_count": 1,
+      "wishlist": true,
+      "cart_added": false,
+      "purchased": false,
+      "in_stock_when_viewed": true,
+      "related_products": [
+        "product-020",
+        "product-024"
+      ],
+      "discount_triggered": false,
+      "discount_code": null,
+      "discounted_price": null,
+      "engagement_score": 3.0,
+      "last_event_at": "2026-06-11T09:11:00Z",
+      "first_seen_at": "2026-06-11T09:10:00Z"
+    },
+    {
+      "user_id": "usr-001",
+      "item_id": "product-003",
+      "item_snapshot": {
+        "category": "footwear",
+        "sub_category": "sneakers",
+        "gender": "female",
+        "age_group": [
+          "18-24",
+          "25-34"
+        ],
+        "price": 410,
+        "in_stock": true
+      },
+      "events": [
+        {
+          "event_type": "view",
+          "timestamp": "2026-06-11T09:15:00Z",
+          "session_id": "sess-abc0"
+        },
+        {
+          "event_type": "view",
+          "timestamp": "2026-06-11T12:20:00Z",
+          "session_id": "sess-jkl3"
+        },
+        {
+          "event_type": "cart_add",
+          "timestamp": "2026-06-11T12:21:00Z",
+          "session_id": "sess-jkl3"
+        },
+        {
+          "event_type": "purchase",
+          "timestamp": "2026-06-11T17:20:00Z",
+          "session_id": "sess-mno4"
+        }
+      ],
+      "view_count": 2,
+      "wishlist": false,
+      "cart_added": true,
+      "purchased": true,
+      "in_stock_when_viewed": true,
+      "related_products": [],
+      "discount_triggered": false,
+      "discount_code": null,
+      "discounted_price": null,
+      "engagement_score": 10.0,
+      "last_event_at": "2026-06-11T17:20:00Z",
+      "first_seen_at": "2026-06-11T09:15:00Z"
+    },
+    {
+      "user_id": "usr-001",
+      "item_id": "product-016",
+      "item_snapshot": {
+        "category": "casual",
+        "sub_category": "top",
+        "gender": "female",
+        "age_group": [
+          "18-24",
+          "25-34"
+        ],
+        "price": 1150,
+        "in_stock": true
+      },
+      "events": [
+        {
+          "event_type": "view",
+          "timestamp": "2026-06-11T09:20:00Z",
+          "session_id": "sess-abc0"
+        },
+        {
+          "event_type": "view",
+          "timestamp": "2026-06-11T10:20:00Z",
+          "session_id": "sess-def1"
+        }
+      ],
+      "view_count": 2,
+      "wishlist": false,
+      "cart_added": false,
+      "purchased": false,
+      "in_stock_when_viewed": true,
+      "related_products": [
+        "product-022",
+        "product-026",
+        "product-028",
+        "product-038"
+      ],
+      "discount_triggered": false,
+      "discount_code": null,
+      "discounted_price": null,
+      "engagement_score": 2.0,
+      "last_event_at": "2026-06-11T10:20:00Z",
+      "first_seen_at": "2026-06-11T09:20:00Z"
+    },
+    {
+      "user_id": "usr-001",
+      "item_id": "product-035",
+      "item_snapshot": {
+        "category": "ethnic",
+        "sub_category": "saree",
+        "gender": "unisex",
+        "age_group": [
+          "18-24"
+        ],
+        "price": 596,
+        "in_stock": true
+      },
+      "events": [
+        {
+          "event_type": "view",
+          "timestamp": "2026-06-11T09:25:00Z",
+          "session_id": "sess-abc0"
+        }
+      ],
+      "view_count": 1,
+      "wishlist": false,
+      "cart_added": false,
+      "purchased": false,
+      "in_stock_when_viewed": true,
+      "related_products": [],
+      "discount_triggered": false,
+      "discount_code": null,
+      "discounted_price": null,
+      "engagement_score": 1.0,
+      "last_event_at": "2026-06-11T09:25:00Z",
+      "first_seen_at": "2026-06-11T09:25:00Z"
+    },
+    {
+      "user_id": "usr-001",
+      "item_id": "product-025",
+      "item_snapshot": {
+        "category": "footwear",
+        "sub_category": "flats",
+        "gender": "female",
+        "age_group": [
+          "18-24",
+          "25-34"
+        ],
+        "price": 791,
+        "in_stock": true
+      },
+      "events": [
+        {
+          "event_type": "view",
+          "timestamp": "2026-06-11T09:30:00Z",
+          "session_id": "sess-abc0"
+        },
+        {
+          "event_type": "cart_add",
+          "timestamp": "2026-06-11T09:31:00Z",
+          "session_id": "sess-abc0"
+        },
+        {
+          "event_type": "wishlist_add",
+          "timestamp": "2026-06-11T09:32:00Z",
+          "session_id": "sess-abc0"
+        }
+      ],
+      "view_count": 1,
+      "wishlist": true,
+      "cart_added": true,
+      "purchased": false,
+      "in_stock_when_viewed": true,
+      "related_products": [
+        "product-019"
+      ],
+      "discount_triggered": false,
+      "discount_code": null,
+      "discounted_price": null,
+      "engagement_score": 6.0,
+      "last_event_at": "2026-06-11T09:32:00Z",
+      "first_seen_at": "2026-06-11T09:30:00Z"
+    },
+    {
+      "user_id": "usr-001",
+      "item_id": "product-006",
+      "item_snapshot": {
+        "category": "footwear",
+        "sub_category": "sneakers",
+        "gender": "female",
+        "age_group": [
+          "18-24",
+          "25-34"
+        ],
+        "price": 753,
+        "in_stock": true
+      },
+      "events": [
+        {
+          "event_type": "view",
+          "timestamp": "2026-06-11T10:50:00Z",
+          "session_id": "sess-ghi2"
+        },
+        {
+          "event_type": "view",
+          "timestamp": "2026-06-11T11:40:00Z",
+          "session_id": "sess-ghi2"
+        }
+      ],
+      "view_count": 2,
+      "wishlist": false,
+      "cart_added": false,
+      "purchased": false,
+      "in_stock_when_viewed": true,
+      "related_products": [],
+      "discount_triggered": false,
+      "discount_code": null,
+      "discounted_price": null,
+      "engagement_score": 2.0,
+      "last_event_at": "2026-06-11T11:40:00Z",
+      "first_seen_at": "2026-06-11T10:50:00Z"
+    },
+    {
+      "user_id": "usr-001",
+      "item_id": "product-050",
+      "item_snapshot": {
+        "category": "casual",
+        "sub_category": "bottom",
+        "gender": "unisex",
+        "age_group": [
+          "18-24",
+          "25-34"
+        ],
+        "price": 1359,
+        "in_stock": true
+      },
+      "events": [
+        {
+          "event_type": "view",
+          "timestamp": "2026-06-11T11:00:00Z",
+          "session_id": "sess-ghi2"
+        },
+        {
+          "event_type": "wishlist_add",
+          "timestamp": "2026-06-11T11:01:00Z",
+          "session_id": "sess-ghi2"
+        }
+      ],
+      "view_count": 1,
+      "wishlist": true,
+      "cart_added": false,
+      "purchased": false,
+      "in_stock_when_viewed": true,
+      "related_products": [
+        "product-004",
+        "product-023",
+        "product-043",
+        "product-045"
+      ],
+      "discount_triggered": false,
+      "discount_code": null,
+      "discounted_price": null,
+      "engagement_score": 3.0,
+      "last_event_at": "2026-06-11T11:01:00Z",
+      "first_seen_at": "2026-06-11T11:00:00Z"
+    },
+    {
+      "user_id": "usr-001",
+      "item_id": "product-022",
+      "item_snapshot": {
+        "category": "casual",
+        "sub_category": "top",
+        "gender": "female",
+        "age_group": [
+          "18-24"
+        ],
+        "price": 1266,
+        "in_stock": true
+      },
+      "events": [
+        {
+          "event_type": "view",
+          "timestamp": "2026-06-11T11:10:00Z",
+          "session_id": "sess-ghi2"
+        },
+        {
+          "event_type": "cart_add",
+          "timestamp": "2026-06-11T11:11:00Z",
+          "session_id": "sess-ghi2"
+        },
+        {
+          "event_type": "view",
+          "timestamp": "2026-06-11T11:20:00Z",
+          "session_id": "sess-ghi2"
+        },
+        {
+          "event_type": "view",
+          "timestamp": "2026-06-11T13:10:00Z",
+          "session_id": "sess-jkl3"
+        }
+      ],
+      "view_count": 3,
+      "wishlist": false,
+      "cart_added": true,
+      "purchased": false,
+      "in_stock_when_viewed": true,
+      "related_products": [
+        "product-016",
+        "product-026",
+        "product-028",
+        "product-034"
+      ],
+      "discount_triggered": true,
+      "discount_code": "PRIYA10",
+      "discounted_price": 1139,
+      "engagement_score": 7.0,
+      "last_event_at": "2026-06-11T13:10:00Z",
+      "first_seen_at": "2026-06-11T11:10:00Z"
+    },
+    {
+      "user_id": "usr-002",
+      "item_id": "product-002",
+      "item_snapshot": {
+        "category": "ethnic",
+        "sub_category": "kurta",
+        "gender": "female",
+        "age_group": [
+          "25-34",
+          "35-44"
+        ],
+        "price": 2082,
+        "in_stock": true
+      },
+      "events": [
+        {
+          "event_type": "view",
+          "timestamp": "2026-06-11T09:00:00Z",
+          "session_id": "sess-abc0"
+        },
+        {
+          "event_type": "view",
+          "timestamp": "2026-06-11T09:45:00Z",
+          "session_id": "sess-def1"
+        },
+        {
+          "event_type": "view",
+          "timestamp": "2026-06-11T10:30:00Z",
+          "session_id": "sess-def1"
+        },
+        {
+          "event_type": "cart_add",
+          "timestamp": "2026-06-11T10:31:00Z",
+          "session_id": "sess-def1"
+        }
+      ],
+      "view_count": 3,
+      "wishlist": false,
+      "cart_added": true,
+      "purchased": false,
+      "in_stock_when_viewed": true,
+      "related_products": [
+        "product-013",
+        "product-021",
+        "product-027",
+        "product-044"
+      ],
+      "discount_triggered": true,
+      "discount_code": "MEERA10",
+      "discounted_price": 1874,
+      "engagement_score": 7.0,
+      "last_event_at": "2026-06-11T10:31:00Z",
+      "first_seen_at": "2026-06-11T09:00:00Z"
+    },
+    {
+      "user_id": "usr-002",
+      "item_id": "product-014",
+      "item_snapshot": {
+        "category": "ethnic",
+        "sub_category": "kurta",
+        "gender": "female",
+        "age_group": [
+          "25-34",
+          "35-44"
+        ],
+        "price": 971,
+        "in_stock": true
+      },
+      "events": [
+        {
+          "event_type": "view",
+          "timestamp": "2026-06-11T09:10:00Z",
+          "session_id": "sess-abc0"
+        },
+        {
+          "event_type": "wishlist_add",
+          "timestamp": "2026-06-11T09:11:00Z",
+          "session_id": "sess-abc0"
+        },
+        {
+          "event_type": "view",
+          "timestamp": "2026-06-11T09:50:00Z",
+          "session_id": "sess-def1"
+        }
+      ],
+      "view_count": 2,
+      "wishlist": true,
+      "cart_added": false,
+      "purchased": false,
+      "in_stock_when_viewed": true,
+      "related_products": [
+        "product-024",
+        "product-048",
+        "product-007",
+        "product-020"
+      ],
+      "discount_triggered": false,
+      "discount_code": null,
+      "discounted_price": null,
+      "engagement_score": 4.0,
+      "last_event_at": "2026-06-11T09:50:00Z",
+      "first_seen_at": "2026-06-11T09:10:00Z"
+    },
+    {
+      "user_id": "usr-002",
+      "item_id": "product-024",
+      "item_snapshot": {
+        "category": "ethnic",
+        "sub_category": "kurta",
+        "gender": "female",
+        "age_group": [
+          "25-34",
+          "35-44"
+        ],
+        "price": 661,
+        "in_stock": true
+      },
+      "events": [
+        {
+          "event_type": "view",
+          "timestamp": "2026-06-11T09:20:00Z",
+          "session_id": "sess-abc0"
+        },
+        {
+          "event_type": "view",
+          "timestamp": "2026-06-11T10:10:00Z",
+          "session_id": "sess-def1"
+        },
+        {
+          "event_type": "cart_add",
+          "timestamp": "2026-06-11T10:11:00Z",
+          "session_id": "sess-def1"
+        },
+        {
+          "event_type": "purchase",
+          "timestamp": "2026-06-11T14:00:00Z",
+          "session_id": "sess-jkl3"
+        }
+      ],
+      "view_count": 2,
+      "wishlist": false,
+      "cart_added": true,
+      "purchased": true,
+      "in_stock_when_viewed": true,
+      "related_products": [
+        "product-032",
+        "product-020"
+      ],
+      "discount_triggered": false,
+      "discount_code": null,
+      "discounted_price": null,
+      "engagement_score": 10.0,
+      "last_event_at": "2026-06-11T14:00:00Z",
+      "first_seen_at": "2026-06-11T09:20:00Z"
+    },
+    {
+      "user_id": "usr-002",
+      "item_id": "product-044",
+      "item_snapshot": {
+        "category": "ethnic",
+        "sub_category": "kurta",
+        "gender": "female",
+        "age_group": [
+          "25-34",
+          "35-44"
+        ],
+        "price": 1764,
+        "in_stock": true
+      },
+      "events": [
+        {
+          "event_type": "view",
+          "timestamp": "2026-06-11T09:30:00Z",
+          "session_id": "sess-abc0"
+        },
+        {
+          "event_type": "wishlist_add",
+          "timestamp": "2026-06-11T09:31:00Z",
+          "session_id": "sess-abc0"
+        }
+      ],
+      "view_count": 1,
+      "wishlist": true,
+      "cart_added": false,
+      "purchased": false,
+      "in_stock_when_viewed": true,
+      "related_products": [
+        "product-002",
+        "product-021",
+        "product-027",
+        "product-046"
+      ],
+      "discount_triggered": false,
+      "discount_code": null,
+      "discounted_price": null,
+      "engagement_score": 3.0,
+      "last_event_at": "2026-06-11T09:31:00Z",
+      "first_seen_at": "2026-06-11T09:30:00Z"
+    },
+    {
+      "user_id": "usr-002",
+      "item_id": "product-015",
+      "item_snapshot": {
+        "category": "footwear",
+        "sub_category": "flats",
+        "gender": "female",
+        "age_group": [
+          "18-24",
+          "25-34"
+        ],
+        "price": 1482,
+        "in_stock": true
+      },
+      "events": [
+        {
+          "event_type": "view",
+          "timestamp": "2026-06-11T09:55:00Z",
+          "session_id": "sess-def1"
+        },
+        {
+          "event_type": "view",
+          "timestamp": "2026-06-11T10:40:00Z",
+          "session_id": "sess-ghi2"
+        },
+        {
+          "event_type": "view",
+          "timestamp": "2026-06-11T11:30:00Z",
+          "session_id": "sess-ghi2"
+        }
+      ],
+      "view_count": 3,
+      "wishlist": false,
+      "cart_added": false,
+      "purchased": false,
+      "in_stock_when_viewed": true,
+      "related_products": [
+        "product-009",
+        "product-031",
+        "product-033",
+        "product-036"
+      ],
+      "discount_triggered": true,
+      "discount_code": "MEERA10",
+      "discounted_price": 1334,
+      "engagement_score": 4.0,
+      "last_event_at": "2026-06-11T11:30:00Z",
+      "first_seen_at": "2026-06-11T09:55:00Z"
+    },
+    {
+      "user_id": "usr-002",
+      "item_id": "product-031",
+      "item_snapshot": {
+        "category": "footwear",
+        "sub_category": "flats",
+        "gender": "female",
+        "age_group": [
+          "25-34",
+          "35-44"
+        ],
+        "price": 1166,
+        "in_stock": true
+      },
+      "events": [
+        {
+          "event_type": "view",
+          "timestamp": "2026-06-11T10:00:00Z",
+          "session_id": "sess-def1"
+        },
+        {
+          "event_type": "cart_add",
+          "timestamp": "2026-06-11T10:01:00Z",
+          "session_id": "sess-def1"
+        }
+      ],
+      "view_count": 1,
+      "wishlist": false,
+      "cart_added": true,
+      "purchased": false,
+      "in_stock_when_viewed": true,
+      "related_products": [
+        "product-015",
+        "product-019",
+        "product-025",
+        "product-036"
+      ],
+      "discount_triggered": false,
+      "discount_code": null,
+      "discounted_price": null,
+      "engagement_score": 4.0,
+      "last_event_at": "2026-06-11T10:01:00Z",
+      "first_seen_at": "2026-06-11T10:00:00Z"
+    },
+    {
+      "user_id": "usr-002",
+      "item_id": "product-036",
+      "item_snapshot": {
+        "category": "footwear",
+        "sub_category": "flats",
+        "gender": "female",
+        "age_group": [
+          "25-34",
+          "35-44"
+        ],
+        "price": 1115,
+        "in_stock": true
+      },
+      "events": [
+        {
+          "event_type": "view",
+          "timestamp": "2026-06-11T10:05:00Z",
+          "session_id": "sess-def1"
+        },
+        {
+          "event_type": "wishlist_add",
+          "timestamp": "2026-06-11T10:06:00Z",
+          "session_id": "sess-def1"
+        },
+        {
+          "event_type": "view",
+          "timestamp": "2026-06-11T10:50:00Z",
+          "session_id": "sess-ghi2"
+        }
+      ],
+      "view_count": 2,
+      "wishlist": true,
+      "cart_added": false,
+      "purchased": false,
+      "in_stock_when_viewed": true,
+      "related_products": [
+        "product-015",
+        "product-019",
+        "product-025",
+        "product-031"
+      ],
+      "discount_triggered": false,
+      "discount_code": null,
+      "discounted_price": null,
+      "engagement_score": 4.0,
+      "last_event_at": "2026-06-11T10:50:00Z",
+      "first_seen_at": "2026-06-11T10:05:00Z"
+    },
+    {
+      "user_id": "usr-002",
+      "item_id": "product-048",
+      "item_snapshot": {
+        "category": "ethnic",
+        "sub_category": "kurta",
+        "gender": "unisex",
+        "age_group": [
+          "25-34",
+          "35-44"
+        ],
+        "price": 1001,
+        "in_stock": true
+      },
+      "events": [
+        {
+          "event_type": "view",
+          "timestamp": "2026-06-11T10:20:00Z",
+          "session_id": "sess-def1"
+        },
+        {
+          "event_type": "view",
+          "timestamp": "2026-06-11T11:00:00Z",
+          "session_id": "sess-ghi2"
+        },
+        {
+          "event_type": "cart_add",
+          "timestamp": "2026-06-11T11:01:00Z",
+          "session_id": "sess-ghi2"
+        },
+        {
+          "event_type": "purchase",
+          "timestamp": "2026-06-11T15:40:00Z",
+          "session_id": "sess-jkl3"
+        }
+      ],
+      "view_count": 2,
+      "wishlist": false,
+      "cart_added": true,
+      "purchased": true,
+      "in_stock_when_viewed": true,
+      "related_products": [
+        "product-007",
+        "product-014",
+        "product-024",
+        "product-020"
+      ],
+      "discount_triggered": false,
+      "discount_code": null,
+      "discounted_price": null,
+      "engagement_score": 10.0,
+      "last_event_at": "2026-06-11T15:40:00Z",
+      "first_seen_at": "2026-06-11T10:20:00Z"
+    },
+    {
+      "user_id": "usr-002",
+      "item_id": "product-043",
+      "item_snapshot": {
+        "category": "casual",
+        "sub_category": "bottom",
+        "gender": "female",
+        "age_group": [
+          "25-34",
+          "35-44"
+        ],
+        "price": 857,
+        "in_stock": true
+      },
+      "events": [
+        {
+          "event_type": "view",
+          "timestamp": "2026-06-11T11:10:00Z",
+          "session_id": "sess-ghi2"
+        }
+      ],
+      "view_count": 1,
+      "wishlist": false,
+      "cart_added": false,
+      "purchased": false,
+      "in_stock_when_viewed": true,
+      "related_products": [
+        "product-030",
+        "product-045"
+      ],
+      "discount_triggered": false,
+      "discount_code": null,
+      "discounted_price": null,
+      "engagement_score": 1.0,
+      "last_event_at": "2026-06-11T11:10:00Z",
+      "first_seen_at": "2026-06-11T11:10:00Z"
+    },
+    {
+      "user_id": "usr-002",
+      "item_id": "product-045",
+      "item_snapshot": {
+        "category": "casual",
+        "sub_category": "bottom",
+        "gender": "female",
+        "age_group": [
+          "25-34",
+          "35-44"
+        ],
+        "price": 1139,
+        "in_stock": true
+      },
+      "events": [
+        {
+          "event_type": "view",
+          "timestamp": "2026-06-11T11:20:00Z",
+          "session_id": "sess-ghi2"
+        },
+        {
+          "event_type": "wishlist_add",
+          "timestamp": "2026-06-11T11:21:00Z",
+          "session_id": "sess-ghi2"
+        },
+        {
+          "event_type": "cart_add",
+          "timestamp": "2026-06-11T12:20:00Z",
+          "session_id": "sess-jkl3"
+        }
+      ],
+      "view_count": 1,
+      "wishlist": true,
+      "cart_added": true,
+      "purchased": false,
+      "in_stock_when_viewed": true,
+      "related_products": [
+        "product-030",
+        "product-043",
+        "product-050"
+      ],
+      "discount_triggered": false,
+      "discount_code": null,
+      "discounted_price": null,
+      "engagement_score": 6.0,
+      "last_event_at": "2026-06-11T12:20:00Z",
+      "first_seen_at": "2026-06-11T11:20:00Z"
+    },
+    {
+      "user_id": "usr-003",
+      "item_id": "product-004",
+      "item_snapshot": {},
+      "events": [
+        {
+          "event_type": "view",
+          "timestamp": "2026-06-13T11:02:17Z",
+          "session_id": "sess-fdf5ada4"
+        },
+        {
+          "event_type": "view",
+          "timestamp": "2026-06-13T11:02:17Z",
+          "session_id": "sess-42e33835"
+        },
+        {
+          "event_type": "view",
+          "timestamp": "2026-06-13T11:02:17Z",
+          "session_id": "sess-451366e0"
+        },
+        {
+          "event_type": "cart_add",
+          "timestamp": "2026-06-13T11:02:17Z",
+          "session_id": "sess-eda69783"
+        },
+        {
+          "event_type": "discount_triggered",
+          "timestamp": "2026-06-13T11:02:17Z",
+          "session_id": "sess-b96e60d1"
+        }
+      ],
+      "view_count": 3,
+      "wishlist": false,
+      "cart_added": true,
+      "purchased": false,
+      "in_stock_when_viewed": true,
+      "related_products": [],
+      "discount_triggered": true,
+      "discount_code": "USR00310",
+      "discounted_price": 1580,
+      "engagement_score": 7.0,
+      "last_event_at": "2026-06-13T11:02:17Z",
+      "first_seen_at": "2026-06-13T11:02:17Z"
+    },
+    {
+      "user_id": "usr-003",
+      "item_id": "product-016",
+      "item_snapshot": {},
+      "events": [
+        {
+          "event_type": "wishlist_add",
+          "timestamp": "2026-06-13T11:02:17Z",
+          "session_id": "sess-cccf890e"
+        },
+        {
+          "event_type": "wishlist_remove",
+          "timestamp": "2026-06-13T11:02:17Z",
+          "session_id": "sess-c5dc8ae8"
+        }
+      ],
+      "view_count": 0,
+      "wishlist": false,
+      "cart_added": false,
+      "purchased": false,
+      "in_stock_when_viewed": true,
+      "related_products": [],
+      "discount_triggered": false,
+      "discount_code": null,
+      "discounted_price": null,
+      "engagement_score": 0.0,
+      "last_event_at": "2026-06-13T11:02:17Z",
+      "first_seen_at": "2026-06-13T11:02:17Z"
+    },
+    {
+      "user_id": "usr-003",
+      "item_id": "product-020",
+      "item_snapshot": {},
+      "events": [
+        {
+          "event_type": "purchase",
+          "timestamp": "2026-06-13T11:02:17Z",
+          "session_id": "sess-85299143"
+        }
+      ],
+      "view_count": 0,
+      "wishlist": false,
+      "cart_added": true,
+      "purchased": true,
+      "in_stock_when_viewed": true,
+      "related_products": [],
+      "discount_triggered": false,
+      "discount_code": null,
+      "discounted_price": null,
+      "engagement_score": 8.0,
+      "last_event_at": "2026-06-13T11:02:17Z",
+      "first_seen_at": "2026-06-13T11:02:17Z"
+    }
+  ],
+  "discount_rules": {
+    "view_threshold": 3,
+    "discount_percent": 10,
+    "expiry_hours": 24,
+    "max_discount_per_user_per_day": 2
+  }
+}

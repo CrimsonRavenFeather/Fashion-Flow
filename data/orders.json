@@ -1,0 +1,25 @@
+[
+  {
+    "order_id": "ORD-1781692512",
+    "timestamp": "2026-06-17T16:05:12.570972",
+    "total_amount": 2309,
+    "total_discount": 749,
+    "final_amount": 1560,
+    "items": [
+      {
+        "product_id": "product-003",
+        "name": "Street Sneakers",
+        "quantity": 1,
+        "price": 410,
+        "subtotal": 410
+      },
+      {
+        "product_id": "product-016",
+        "name": "Casual Shirt",
+        "quantity": 1,
+        "price": 1150,
+        "subtotal": 1150
+      }
+    ]
+  }
+]

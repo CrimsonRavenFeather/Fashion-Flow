@@ -1,0 +1,2056 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-06-12",
+  "items": [
+    {
+      "id": "product-001",
+      "name": "Linen Saree",
+      "brand": "Needledust",
+      "category": "ethnic",
+      "sub_category": "saree",
+      "gender": "unisex",
+      "price": 1907,
+      "original_price": 2540,
+      "discount_percent": 25,
+      "sizes_available": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "white",
+        "maroon",
+        "black"
+      ],
+      "fabric": "cotton-blend",
+      "age_group": [
+        "25-34",
+        "35-44"
+      ],
+      "trend_tags": [
+        "minimalist",
+        "streetwear"
+      ],
+      "occasion": [
+        "festive",
+        "office",
+        "outing"
+      ],
+      "image_url": "https://imgs.search.brave.com/fUO1CBFPNudv-HRszxOX10RDaWJf58K34ItTVbfKCaI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9kYWls/eWJ1eXlzLmNvbS9j/ZG4vc2hvcC9wcm9k/dWN0cy9XaGF0c0Fw/cEltYWdlMjAyMS0x/Mi0yNmF0Ni4zNi4y/NVBNLmpwZz92PTE2/NDA4NjI0Mzkmd2lk/dGg9NTMz",
+      "rating": 4.5,
+      "review_count": 883,
+      "in_stock": false,
+      "value_score": 8.0
+    },
+    {
+      "id": "product-002",
+      "name": "Cotton Kurta",
+      "brand": "Global Desi",
+      "category": "ethnic",
+      "sub_category": "kurta",
+      "gender": "female",
+      "price": 2082,
+      "original_price": 2833,
+      "discount_percent": 27,
+      "sizes_available": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "grey",
+        "beige",
+        "white"
+      ],
+      "fabric": "denim",
+      "age_group": [
+        "25-34",
+        "35-44"
+      ],
+      "trend_tags": [
+        "minimalist",
+        "budget-pick"
+      ],
+      "occasion": [
+        "office",
+        "festive",
+        "college"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=2",
+      "rating": 4.5,
+      "review_count": 709,
+      "in_stock": true,
+      "value_score": 8.5
+    },
+    {
+      "id": "product-003",
+      "name": "Street Sneakers",
+      "brand": "Zara",
+      "category": "footwear",
+      "sub_category": "sneakers",
+      "gender": "female",
+      "price": 410,
+      "original_price": 667,
+      "discount_percent": 39,
+      "sizes_available": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "blue",
+        "green",
+        "black"
+      ],
+      "fabric": "linen",
+      "age_group": [
+        "18-24",
+        "25-34"
+      ],
+      "trend_tags": [
+        "budget-pick",
+        "classic"
+      ],
+      "occasion": [
+        "office",
+        "college",
+        "festive"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=3",
+      "rating": 4.3,
+      "review_count": 403,
+      "in_stock": true,
+      "value_score": 8.8
+    },
+    {
+      "id": "product-004",
+      "name": "Palazzo Pants",
+      "brand": "Needledust",
+      "category": "casual",
+      "sub_category": "bottom",
+      "gender": "female",
+      "price": 1756,
+      "original_price": 1840,
+      "discount_percent": 5,
+      "sizes_available": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "navy",
+        "yellow",
+        "black"
+      ],
+      "fabric": "denim",
+      "age_group": [
+        "18-24"
+      ],
+      "trend_tags": [
+        "budget-pick",
+        "classic"
+      ],
+      "occasion": [
+        "college",
+        "outing",
+        "weekend"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=4",
+      "rating": 4.5,
+      "review_count": 2346,
+      "in_stock": true,
+      "value_score": 9.8
+    },
+    {
+      "id": "product-005",
+      "name": "Graphic Tee",
+      "brand": "Needledust",
+      "category": "casual",
+      "sub_category": "top",
+      "gender": "female",
+      "price": 1822,
+      "original_price": 2164,
+      "discount_percent": 16,
+      "sizes_available": [
+        "36",
+        "37",
+        "38",
+        "39",
+        "40"
+      ],
+      "colors": [
+        "blue",
+        "navy",
+        "white"
+      ],
+      "fabric": "cotton-blend",
+      "age_group": [
+        "18-24",
+        "25-34"
+      ],
+      "trend_tags": [
+        "classic",
+        "summer-2026"
+      ],
+      "occasion": [
+        "outing",
+        "office",
+        "college"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=5",
+      "rating": 3.9,
+      "review_count": 1094,
+      "in_stock": true,
+      "value_score": 9.5
+    },
+    {
+      "id": "product-006",
+      "name": "Canvas Sneakers",
+      "brand": "Zara",
+      "category": "footwear",
+      "sub_category": "sneakers",
+      "gender": "female",
+      "price": 753,
+      "original_price": 1368,
+      "discount_percent": 45,
+      "sizes_available": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "navy",
+        "beige",
+        "green"
+      ],
+      "fabric": "cotton",
+      "age_group": [
+        "18-24",
+        "25-34"
+      ],
+      "trend_tags": [
+        "budget-pick",
+        "trending"
+      ],
+      "occasion": [
+        "outing",
+        "office",
+        "casual"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=6",
+      "rating": 4.8,
+      "review_count": 878,
+      "in_stock": true,
+      "value_score": 7.9
+    },
+    {
+      "id": "product-007",
+      "name": "Floral Kurta",
+      "brand": "Anokhi",
+      "category": "ethnic",
+      "sub_category": "kurta",
+      "gender": "unisex",
+      "price": 1020,
+      "original_price": 1782,
+      "discount_percent": 43,
+      "sizes_available": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "beige",
+        "white",
+        "maroon"
+      ],
+      "fabric": "cotton-blend",
+      "age_group": [
+        "18-24"
+      ],
+      "trend_tags": [
+        "streetwear",
+        "budget-pick"
+      ],
+      "occasion": [
+        "festive",
+        "outing",
+        "weekend"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=7",
+      "rating": 4.5,
+      "review_count": 101,
+      "in_stock": true,
+      "value_score": 9.3
+    },
+    {
+      "id": "product-008",
+      "name": "Cargo Pants",
+      "brand": "Anokhi",
+      "category": "casual",
+      "sub_category": "bottom",
+      "gender": "female",
+      "price": 2376,
+      "original_price": 3162,
+      "discount_percent": 25,
+      "sizes_available": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "blue",
+        "maroon",
+        "yellow"
+      ],
+      "fabric": "silk-blend",
+      "age_group": [
+        "25-34",
+        "35-44"
+      ],
+      "trend_tags": [
+        "classic",
+        "budget-pick"
+      ],
+      "occasion": [
+        "outing",
+        "festive",
+        "office"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=8",
+      "rating": 4.6,
+      "review_count": 1518,
+      "in_stock": false,
+      "value_score": 9.6
+    },
+    {
+      "id": "product-009",
+      "name": "Comfort Flats",
+      "brand": "ONLY",
+      "category": "footwear",
+      "sub_category": "flats",
+      "gender": "unisex",
+      "price": 1451,
+      "original_price": 1508,
+      "discount_percent": 4,
+      "sizes_available": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "green",
+        "yellow",
+        "beige"
+      ],
+      "fabric": "denim",
+      "age_group": [
+        "18-24"
+      ],
+      "trend_tags": [
+        "trending",
+        "summer-2026"
+      ],
+      "occasion": [
+        "festive",
+        "weekend",
+        "outing"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=9",
+      "rating": 4.1,
+      "review_count": 1698,
+      "in_stock": false,
+      "value_score": 8.0
+    },
+    {
+      "id": "product-010",
+      "name": "Ethnic Flats",
+      "brand": "Biba",
+      "category": "footwear",
+      "sub_category": "flats",
+      "gender": "female",
+      "price": 2340,
+      "original_price": 2947,
+      "discount_percent": 21,
+      "sizes_available": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "white",
+        "black",
+        "yellow"
+      ],
+      "fabric": "silk-blend",
+      "age_group": [
+        "25-34",
+        "35-44"
+      ],
+      "trend_tags": [
+        "summer-2026",
+        "classic"
+      ],
+      "occasion": [
+        "college",
+        "office",
+        "casual"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=10",
+      "rating": 4.2,
+      "review_count": 214,
+      "in_stock": true,
+      "value_score": 9.4
+    },
+    {
+      "id": "product-011",
+      "name": "Canvas Sneakers",
+      "brand": "W",
+      "category": "footwear",
+      "sub_category": "sneakers",
+      "gender": "female",
+      "price": 1411,
+      "original_price": 1711,
+      "discount_percent": 18,
+      "sizes_available": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "black",
+        "grey",
+        "beige"
+      ],
+      "fabric": "cotton-blend",
+      "age_group": [
+        "18-24"
+      ],
+      "trend_tags": [
+        "streetwear",
+        "classic"
+      ],
+      "occasion": [
+        "festive",
+        "office",
+        "outing"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=11",
+      "rating": 4.5,
+      "review_count": 1116,
+      "in_stock": true,
+      "value_score": 8.8
+    },
+    {
+      "id": "product-012",
+      "name": "Street Sneakers",
+      "brand": "H&M",
+      "category": "footwear",
+      "sub_category": "sneakers",
+      "gender": "female",
+      "price": 2195,
+      "original_price": 2462,
+      "discount_percent": 11,
+      "sizes_available": [
+        "36",
+        "37",
+        "38",
+        "39",
+        "40"
+      ],
+      "colors": [
+        "yellow",
+        "green",
+        "grey"
+      ],
+      "fabric": "linen",
+      "age_group": [
+        "25-34",
+        "35-44"
+      ],
+      "trend_tags": [
+        "streetwear",
+        "budget-pick"
+      ],
+      "occasion": [
+        "office",
+        "festive",
+        "outing"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=12",
+      "rating": 4.3,
+      "review_count": 347,
+      "in_stock": true,
+      "value_score": 8.3
+    },
+    {
+      "id": "product-013",
+      "name": "Printed Kurta",
+      "brand": "Anokhi",
+      "category": "ethnic",
+      "sub_category": "kurta",
+      "gender": "female",
+      "price": 2473,
+      "original_price": 2895,
+      "discount_percent": 15,
+      "sizes_available": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "navy",
+        "pink",
+        "blue"
+      ],
+      "fabric": "denim",
+      "age_group": [
+        "25-34",
+        "35-44"
+      ],
+      "trend_tags": [
+        "minimalist",
+        "classic"
+      ],
+      "occasion": [
+        "office",
+        "casual",
+        "college"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=13",
+      "rating": 4.5,
+      "review_count": 1792,
+      "in_stock": true,
+      "value_score": 7.6
+    },
+    {
+      "id": "product-014",
+      "name": "A-Line Kurta",
+      "brand": "Needledust",
+      "category": "ethnic",
+      "sub_category": "kurta",
+      "gender": "female",
+      "price": 971,
+      "original_price": 984,
+      "discount_percent": 1,
+      "sizes_available": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "green",
+        "grey",
+        "yellow"
+      ],
+      "fabric": "cotton-blend",
+      "age_group": [
+        "25-34",
+        "35-44"
+      ],
+      "trend_tags": [
+        "classic",
+        "summer-2026"
+      ],
+      "occasion": [
+        "office",
+        "casual",
+        "weekend"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=14",
+      "rating": 4.7,
+      "review_count": 220,
+      "in_stock": true,
+      "value_score": 9.2
+    },
+    {
+      "id": "product-015",
+      "name": "Ethnic Flats",
+      "brand": "H&M",
+      "category": "footwear",
+      "sub_category": "flats",
+      "gender": "female",
+      "price": 1482,
+      "original_price": 1909,
+      "discount_percent": 22,
+      "sizes_available": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "black",
+        "maroon",
+        "yellow"
+      ],
+      "fabric": "linen",
+      "age_group": [
+        "18-24",
+        "25-34"
+      ],
+      "trend_tags": [
+        "streetwear",
+        "summer-2026"
+      ],
+      "occasion": [
+        "weekend",
+        "college",
+        "outing"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=15",
+      "rating": 4.4,
+      "review_count": 569,
+      "in_stock": true,
+      "value_score": 7.9
+    },
+    {
+      "id": "product-016",
+      "name": "Casual Shirt",
+      "brand": "Needledust",
+      "category": "casual",
+      "sub_category": "top",
+      "gender": "female",
+      "price": 1150,
+      "original_price": 1642,
+      "discount_percent": 30,
+      "sizes_available": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "green",
+        "grey",
+        "beige"
+      ],
+      "fabric": "denim",
+      "age_group": [
+        "18-24",
+        "25-34"
+      ],
+      "trend_tags": [
+        "streetwear",
+        "classic"
+      ],
+      "occasion": [
+        "college",
+        "outing",
+        "office"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=16",
+      "rating": 4.4,
+      "review_count": 1354,
+      "in_stock": true,
+      "value_score": 8.7
+    },
+    {
+      "id": "product-017",
+      "name": "Canvas Sneakers",
+      "brand": "Levi's",
+      "category": "footwear",
+      "sub_category": "sneakers",
+      "gender": "female",
+      "price": 1808,
+      "original_price": 2146,
+      "discount_percent": 16,
+      "sizes_available": [
+        "36",
+        "37",
+        "38",
+        "39",
+        "40"
+      ],
+      "colors": [
+        "navy",
+        "maroon",
+        "beige"
+      ],
+      "fabric": "linen",
+      "age_group": [
+        "25-34",
+        "35-44"
+      ],
+      "trend_tags": [
+        "summer-2026",
+        "classic"
+      ],
+      "occasion": [
+        "college",
+        "outing",
+        "weekend"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=17",
+      "rating": 3.9,
+      "review_count": 306,
+      "in_stock": true,
+      "value_score": 7.9
+    },
+    {
+      "id": "product-018",
+      "name": "Street Sneakers",
+      "brand": "Zara",
+      "category": "footwear",
+      "sub_category": "sneakers",
+      "gender": "female",
+      "price": 1092,
+      "original_price": 1618,
+      "discount_percent": 33,
+      "sizes_available": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "blue",
+        "pink",
+        "black"
+      ],
+      "fabric": "cotton",
+      "age_group": [
+        "25-34",
+        "35-44"
+      ],
+      "trend_tags": [
+        "trending",
+        "classic"
+      ],
+      "occasion": [
+        "college",
+        "office",
+        "casual"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=18",
+      "rating": 4.2,
+      "review_count": 1751,
+      "in_stock": true,
+      "value_score": 7.8
+    },
+    {
+      "id": "product-019",
+      "name": "Comfort Flats",
+      "brand": "W",
+      "category": "footwear",
+      "sub_category": "flats",
+      "gender": "unisex",
+      "price": 852,
+      "original_price": 1500,
+      "discount_percent": 43,
+      "sizes_available": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "black",
+        "pink",
+        "navy"
+      ],
+      "fabric": "cotton",
+      "age_group": [
+        "25-34",
+        "35-44"
+      ],
+      "trend_tags": [
+        "minimalist",
+        "budget-pick"
+      ],
+      "occasion": [
+        "office",
+        "casual",
+        "outing"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=19",
+      "rating": 3.9,
+      "review_count": 1226,
+      "in_stock": false,
+      "value_score": 7.8
+    },
+    {
+      "id": "product-020",
+      "name": "Floral Kurta",
+      "brand": "W",
+      "category": "ethnic",
+      "sub_category": "kurta",
+      "gender": "female",
+      "price": 655,
+      "original_price": 1176,
+      "discount_percent": 44,
+      "sizes_available": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "pink",
+        "white",
+        "black"
+      ],
+      "fabric": "cotton-blend",
+      "age_group": [
+        "18-24"
+      ],
+      "trend_tags": [
+        "streetwear",
+        "trending"
+      ],
+      "occasion": [
+        "outing",
+        "festive",
+        "casual"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=20",
+      "rating": 4.1,
+      "review_count": 1894,
+      "in_stock": true,
+      "value_score": 8.3
+    },
+    {
+      "id": "product-021",
+      "name": "Cotton Kurta",
+      "brand": "Zara",
+      "category": "ethnic",
+      "sub_category": "kurta",
+      "gender": "unisex",
+      "price": 1622,
+      "original_price": 2098,
+      "discount_percent": 23,
+      "sizes_available": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "black",
+        "grey",
+        "blue"
+      ],
+      "fabric": "silk-blend",
+      "age_group": [
+        "18-24",
+        "25-34"
+      ],
+      "trend_tags": [
+        "minimalist",
+        "trending"
+      ],
+      "occasion": [
+        "college",
+        "outing",
+        "casual"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=21",
+      "rating": 4.8,
+      "review_count": 2357,
+      "in_stock": true,
+      "value_score": 9.1
+    },
+    {
+      "id": "product-022",
+      "name": "Casual Shirt",
+      "brand": "Biba",
+      "category": "casual",
+      "sub_category": "top",
+      "gender": "female",
+      "price": 1266,
+      "original_price": 1552,
+      "discount_percent": 18,
+      "sizes_available": [
+        "36",
+        "37",
+        "38",
+        "39",
+        "40"
+      ],
+      "colors": [
+        "yellow",
+        "grey",
+        "white"
+      ],
+      "fabric": "linen",
+      "age_group": [
+        "18-24"
+      ],
+      "trend_tags": [
+        "trending",
+        "streetwear"
+      ],
+      "occasion": [
+        "college",
+        "office",
+        "festive"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=22",
+      "rating": 4.2,
+      "review_count": 745,
+      "in_stock": true,
+      "value_score": 9.2
+    },
+    {
+      "id": "product-023",
+      "name": "Straight Jeans",
+      "brand": "FabIndia",
+      "category": "casual",
+      "sub_category": "bottom",
+      "gender": "female",
+      "price": 1662,
+      "original_price": 1899,
+      "discount_percent": 12,
+      "sizes_available": [
+        "36",
+        "37",
+        "38",
+        "39",
+        "40"
+      ],
+      "colors": [
+        "pink",
+        "blue",
+        "black"
+      ],
+      "fabric": "cotton-blend",
+      "age_group": [
+        "18-24",
+        "25-34"
+      ],
+      "trend_tags": [
+        "trending",
+        "minimalist"
+      ],
+      "occasion": [
+        "office",
+        "festive",
+        "college"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=23",
+      "rating": 4.0,
+      "review_count": 1155,
+      "in_stock": true,
+      "value_score": 8.1
+    },
+    {
+      "id": "product-024",
+      "name": "Cotton Kurta",
+      "brand": "Anokhi",
+      "category": "ethnic",
+      "sub_category": "kurta",
+      "gender": "female",
+      "price": 661,
+      "original_price": 875,
+      "discount_percent": 24,
+      "sizes_available": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "green",
+        "white",
+        "grey"
+      ],
+      "fabric": "cotton",
+      "age_group": [
+        "25-34",
+        "35-44"
+      ],
+      "trend_tags": [
+        "classic",
+        "minimalist"
+      ],
+      "occasion": [
+        "college",
+        "outing",
+        "office"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=24",
+      "rating": 4.3,
+      "review_count": 1391,
+      "in_stock": true,
+      "value_score": 8.4
+    },
+    {
+      "id": "product-025",
+      "name": "Ethnic Flats",
+      "brand": "Needledust",
+      "category": "footwear",
+      "sub_category": "flats",
+      "gender": "female",
+      "price": 791,
+      "original_price": 1000,
+      "discount_percent": 21,
+      "sizes_available": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "beige",
+        "blue",
+        "green"
+      ],
+      "fabric": "cotton",
+      "age_group": [
+        "18-24",
+        "25-34"
+      ],
+      "trend_tags": [
+        "classic",
+        "streetwear"
+      ],
+      "occasion": [
+        "outing",
+        "festive",
+        "college"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=25",
+      "rating": 4.3,
+      "review_count": 2001,
+      "in_stock": true,
+      "value_score": 9.7
+    },
+    {
+      "id": "product-026",
+      "name": "Casual Shirt",
+      "brand": "Anokhi",
+      "category": "casual",
+      "sub_category": "top",
+      "gender": "female",
+      "price": 1571,
+      "original_price": 2032,
+      "discount_percent": 23,
+      "sizes_available": [
+        "36",
+        "37",
+        "38",
+        "39",
+        "40"
+      ],
+      "colors": [
+        "yellow",
+        "pink",
+        "blue"
+      ],
+      "fabric": "cotton",
+      "age_group": [
+        "18-24",
+        "25-34"
+      ],
+      "trend_tags": [
+        "trending",
+        "summer-2026"
+      ],
+      "occasion": [
+        "college",
+        "festive",
+        "weekend"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=26",
+      "rating": 4.7,
+      "review_count": 679,
+      "in_stock": true,
+      "value_score": 9.4
+    },
+    {
+      "id": "product-027",
+      "name": "Floral Kurta",
+      "brand": "W",
+      "category": "ethnic",
+      "sub_category": "kurta",
+      "gender": "female",
+      "price": 2031,
+      "original_price": 2041,
+      "discount_percent": 0,
+      "sizes_available": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "green",
+        "blue",
+        "black"
+      ],
+      "fabric": "linen",
+      "age_group": [
+        "18-24",
+        "25-34"
+      ],
+      "trend_tags": [
+        "streetwear",
+        "summer-2026"
+      ],
+      "occasion": [
+        "festive",
+        "office",
+        "outing"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=27",
+      "rating": 4.1,
+      "review_count": 841,
+      "in_stock": true,
+      "value_score": 9.3
+    },
+    {
+      "id": "product-028",
+      "name": "Oversized Tee",
+      "brand": "Global Desi",
+      "category": "casual",
+      "sub_category": "top",
+      "gender": "female",
+      "price": 1538,
+      "original_price": 1768,
+      "discount_percent": 13,
+      "sizes_available": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "beige",
+        "maroon",
+        "grey"
+      ],
+      "fabric": "cotton-blend",
+      "age_group": [
+        "18-24"
+      ],
+      "trend_tags": [
+        "summer-2026",
+        "classic"
+      ],
+      "occasion": [
+        "festive",
+        "college",
+        "casual"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=28",
+      "rating": 4.1,
+      "review_count": 2351,
+      "in_stock": true,
+      "value_score": 9.8
+    },
+    {
+      "id": "product-029",
+      "name": "Embroidered Juttis",
+      "brand": "Biba",
+      "category": "footwear",
+      "sub_category": "flats",
+      "gender": "female",
+      "price": 2208,
+      "original_price": 2433,
+      "discount_percent": 9,
+      "sizes_available": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "navy",
+        "grey",
+        "green"
+      ],
+      "fabric": "linen",
+      "age_group": [
+        "18-24"
+      ],
+      "trend_tags": [
+        "minimalist",
+        "trending"
+      ],
+      "occasion": [
+        "outing",
+        "festive",
+        "casual"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=29",
+      "rating": 4.5,
+      "review_count": 489,
+      "in_stock": true,
+      "value_score": 7.5
+    },
+    {
+      "id": "product-030",
+      "name": "Cargo Pants",
+      "brand": "Anokhi",
+      "category": "casual",
+      "sub_category": "bottom",
+      "gender": "female",
+      "price": 718,
+      "original_price": 1157,
+      "discount_percent": 38,
+      "sizes_available": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "grey",
+        "green",
+        "beige"
+      ],
+      "fabric": "silk-blend",
+      "age_group": [
+        "25-34",
+        "35-44"
+      ],
+      "trend_tags": [
+        "budget-pick",
+        "classic"
+      ],
+      "occasion": [
+        "festive",
+        "office",
+        "outing"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=30",
+      "rating": 4.1,
+      "review_count": 274,
+      "in_stock": true,
+      "value_score": 7.6
+    },
+    {
+      "id": "product-031",
+      "name": "Comfort Flats",
+      "brand": "ONLY",
+      "category": "footwear",
+      "sub_category": "flats",
+      "gender": "female",
+      "price": 1166,
+      "original_price": 1326,
+      "discount_percent": 12,
+      "sizes_available": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "maroon",
+        "navy",
+        "grey"
+      ],
+      "fabric": "cotton",
+      "age_group": [
+        "25-34",
+        "35-44"
+      ],
+      "trend_tags": [
+        "trending",
+        "budget-pick"
+      ],
+      "occasion": [
+        "outing",
+        "festive",
+        "casual"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=31",
+      "rating": 4.2,
+      "review_count": 1344,
+      "in_stock": true,
+      "value_score": 9.1
+    },
+    {
+      "id": "product-032",
+      "name": "A-Line Kurta",
+      "brand": "Biba",
+      "category": "ethnic",
+      "sub_category": "kurta",
+      "gender": "unisex",
+      "price": 493,
+      "original_price": 793,
+      "discount_percent": 38,
+      "sizes_available": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "green",
+        "maroon",
+        "blue"
+      ],
+      "fabric": "denim",
+      "age_group": [
+        "18-24",
+        "25-34"
+      ],
+      "trend_tags": [
+        "minimalist",
+        "budget-pick"
+      ],
+      "occasion": [
+        "festive",
+        "college",
+        "weekend"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=32",
+      "rating": 4.8,
+      "review_count": 1698,
+      "in_stock": true,
+      "value_score": 8.0
+    },
+    {
+      "id": "product-033",
+      "name": "Comfort Flats",
+      "brand": "Zara",
+      "category": "footwear",
+      "sub_category": "flats",
+      "gender": "female",
+      "price": 1291,
+      "original_price": 1334,
+      "discount_percent": 3,
+      "sizes_available": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "beige",
+        "black",
+        "white"
+      ],
+      "fabric": "cotton",
+      "age_group": [
+        "18-24"
+      ],
+      "trend_tags": [
+        "budget-pick",
+        "classic"
+      ],
+      "occasion": [
+        "office",
+        "casual",
+        "festive"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=33",
+      "rating": 4.8,
+      "review_count": 1418,
+      "in_stock": true,
+      "value_score": 9.0
+    },
+    {
+      "id": "product-034",
+      "name": "Block Print Shirt",
+      "brand": "ONLY",
+      "category": "casual",
+      "sub_category": "top",
+      "gender": "female",
+      "price": 1728,
+      "original_price": 1742,
+      "discount_percent": 1,
+      "sizes_available": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "pink",
+        "blue",
+        "grey"
+      ],
+      "fabric": "cotton-blend",
+      "age_group": [
+        "25-34",
+        "35-44"
+      ],
+      "trend_tags": [
+        "minimalist",
+        "streetwear"
+      ],
+      "occasion": [
+        "outing",
+        "weekend",
+        "festive"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=34",
+      "rating": 4.7,
+      "review_count": 254,
+      "in_stock": true,
+      "value_score": 8.4
+    },
+    {
+      "id": "product-035",
+      "name": "Cotton Saree",
+      "brand": "Needledust",
+      "category": "ethnic",
+      "sub_category": "saree",
+      "gender": "unisex",
+      "price": 596,
+      "original_price": 615,
+      "discount_percent": 3,
+      "sizes_available": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "black",
+        "pink",
+        "grey"
+      ],
+      "fabric": "linen",
+      "age_group": [
+        "18-24"
+      ],
+      "trend_tags": [
+        "classic",
+        "budget-pick"
+      ],
+      "occasion": [
+        "casual",
+        "college",
+        "festive"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=35",
+      "rating": 4.2,
+      "review_count": 2185,
+      "in_stock": true,
+      "value_score": 8.9
+    },
+    {
+      "id": "product-036",
+      "name": "Ethnic Flats",
+      "brand": "FabIndia",
+      "category": "footwear",
+      "sub_category": "flats",
+      "gender": "female",
+      "price": 1115,
+      "original_price": 1793,
+      "discount_percent": 38,
+      "sizes_available": [
+        "36",
+        "37",
+        "38",
+        "39",
+        "40"
+      ],
+      "colors": [
+        "grey",
+        "maroon",
+        "black"
+      ],
+      "fabric": "linen",
+      "age_group": [
+        "25-34",
+        "35-44"
+      ],
+      "trend_tags": [
+        "budget-pick",
+        "summer-2026"
+      ],
+      "occasion": [
+        "outing",
+        "festive",
+        "weekend"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=36",
+      "rating": 4.3,
+      "review_count": 2104,
+      "in_stock": true,
+      "value_score": 9.4
+    },
+    {
+      "id": "product-037",
+      "name": "Street Sneakers",
+      "brand": "Biba",
+      "category": "footwear",
+      "sub_category": "sneakers",
+      "gender": "unisex",
+      "price": 2444,
+      "original_price": 3034,
+      "discount_percent": 19,
+      "sizes_available": [
+        "36",
+        "37",
+        "38",
+        "39",
+        "40"
+      ],
+      "colors": [
+        "beige",
+        "maroon",
+        "white"
+      ],
+      "fabric": "cotton",
+      "age_group": [
+        "18-24"
+      ],
+      "trend_tags": [
+        "classic",
+        "streetwear"
+      ],
+      "occasion": [
+        "casual",
+        "weekend",
+        "outing"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=37",
+      "rating": 4.3,
+      "review_count": 996,
+      "in_stock": true,
+      "value_score": 8.6
+    },
+    {
+      "id": "product-038",
+      "name": "Oversized Tee",
+      "brand": "Biba",
+      "category": "casual",
+      "sub_category": "top",
+      "gender": "female",
+      "price": 1461,
+      "original_price": 1639,
+      "discount_percent": 11,
+      "sizes_available": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "blue",
+        "grey",
+        "yellow"
+      ],
+      "fabric": "silk-blend",
+      "age_group": [
+        "25-34",
+        "35-44"
+      ],
+      "trend_tags": [
+        "trending",
+        "budget-pick"
+      ],
+      "occasion": [
+        "casual",
+        "college",
+        "weekend"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=38",
+      "rating": 4.3,
+      "review_count": 1304,
+      "in_stock": true,
+      "value_score": 8.8
+    },
+    {
+      "id": "product-039",
+      "name": "Ethnic Flats",
+      "brand": "Levi's",
+      "category": "footwear",
+      "sub_category": "flats",
+      "gender": "female",
+      "price": 2258,
+      "original_price": 2695,
+      "discount_percent": 16,
+      "sizes_available": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "navy",
+        "beige",
+        "grey"
+      ],
+      "fabric": "denim",
+      "age_group": [
+        "25-34",
+        "35-44"
+      ],
+      "trend_tags": [
+        "streetwear",
+        "minimalist"
+      ],
+      "occasion": [
+        "college",
+        "office",
+        "outing"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=39",
+      "rating": 4.3,
+      "review_count": 630,
+      "in_stock": true,
+      "value_score": 7.9
+    },
+    {
+      "id": "product-040",
+      "name": "Embroidered Juttis",
+      "brand": "Global Desi",
+      "category": "footwear",
+      "sub_category": "flats",
+      "gender": "female",
+      "price": 417,
+      "original_price": 609,
+      "discount_percent": 32,
+      "sizes_available": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "white",
+        "green",
+        "beige"
+      ],
+      "fabric": "silk-blend",
+      "age_group": [
+        "25-34",
+        "35-44"
+      ],
+      "trend_tags": [
+        "minimalist",
+        "summer-2026"
+      ],
+      "occasion": [
+        "outing",
+        "office",
+        "casual"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=40",
+      "rating": 4.0,
+      "review_count": 816,
+      "in_stock": true,
+      "value_score": 7.9
+    },
+    {
+      "id": "product-041",
+      "name": "Casual Shirt",
+      "brand": "ONLY",
+      "category": "casual",
+      "sub_category": "top",
+      "gender": "female",
+      "price": 2245,
+      "original_price": 2539,
+      "discount_percent": 12,
+      "sizes_available": [
+        "36",
+        "37",
+        "38",
+        "39",
+        "40"
+      ],
+      "colors": [
+        "black",
+        "grey",
+        "white"
+      ],
+      "fabric": "cotton-blend",
+      "age_group": [
+        "18-24",
+        "25-34"
+      ],
+      "trend_tags": [
+        "summer-2026",
+        "trending"
+      ],
+      "occasion": [
+        "festive",
+        "weekend",
+        "casual"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=41",
+      "rating": 4.4,
+      "review_count": 654,
+      "in_stock": true,
+      "value_score": 8.6
+    },
+    {
+      "id": "product-042",
+      "name": "Classic Sneakers",
+      "brand": "Needledust",
+      "category": "footwear",
+      "sub_category": "sneakers",
+      "gender": "female",
+      "price": 1157,
+      "original_price": 1732,
+      "discount_percent": 33,
+      "sizes_available": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "grey",
+        "white",
+        "green"
+      ],
+      "fabric": "cotton",
+      "age_group": [
+        "18-24",
+        "25-34"
+      ],
+      "trend_tags": [
+        "classic",
+        "streetwear"
+      ],
+      "occasion": [
+        "office",
+        "festive",
+        "weekend"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=42",
+      "rating": 4.1,
+      "review_count": 2061,
+      "in_stock": false,
+      "value_score": 9.5
+    },
+    {
+      "id": "product-043",
+      "name": "Cargo Pants",
+      "brand": "Levi's",
+      "category": "casual",
+      "sub_category": "bottom",
+      "gender": "female",
+      "price": 857,
+      "original_price": 1418,
+      "discount_percent": 40,
+      "sizes_available": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "grey",
+        "yellow",
+        "maroon"
+      ],
+      "fabric": "denim",
+      "age_group": [
+        "25-34",
+        "35-44"
+      ],
+      "trend_tags": [
+        "minimalist",
+        "budget-pick"
+      ],
+      "occasion": [
+        "college",
+        "outing",
+        "festive"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=43",
+      "rating": 4.4,
+      "review_count": 1235,
+      "in_stock": true,
+      "value_score": 9.5
+    },
+    {
+      "id": "product-044",
+      "name": "Floral Kurta",
+      "brand": "Zara",
+      "category": "ethnic",
+      "sub_category": "kurta",
+      "gender": "female",
+      "price": 1764,
+      "original_price": 1904,
+      "discount_percent": 7,
+      "sizes_available": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "maroon",
+        "blue",
+        "green"
+      ],
+      "fabric": "cotton-blend",
+      "age_group": [
+        "25-34",
+        "35-44"
+      ],
+      "trend_tags": [
+        "trending",
+        "minimalist"
+      ],
+      "occasion": [
+        "weekend",
+        "festive",
+        "casual"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=44",
+      "rating": 4.4,
+      "review_count": 1676,
+      "in_stock": true,
+      "value_score": 8.8
+    },
+    {
+      "id": "product-045",
+      "name": "Palazzo Pants",
+      "brand": "Zara",
+      "category": "casual",
+      "sub_category": "bottom",
+      "gender": "female",
+      "price": 1139,
+      "original_price": 1163,
+      "discount_percent": 2,
+      "sizes_available": [
+        "36",
+        "37",
+        "38",
+        "39",
+        "40"
+      ],
+      "colors": [
+        "white",
+        "beige",
+        "blue"
+      ],
+      "fabric": "denim",
+      "age_group": [
+        "25-34",
+        "35-44"
+      ],
+      "trend_tags": [
+        "streetwear",
+        "summer-2026"
+      ],
+      "occasion": [
+        "office",
+        "casual",
+        "outing"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=45",
+      "rating": 4.2,
+      "review_count": 118,
+      "in_stock": true,
+      "value_score": 9.3
+    },
+    {
+      "id": "product-046",
+      "name": "Printed Kurta",
+      "brand": "W",
+      "category": "ethnic",
+      "sub_category": "kurta",
+      "gender": "female",
+      "price": 2375,
+      "original_price": 2407,
+      "discount_percent": 1,
+      "sizes_available": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "green",
+        "blue",
+        "black"
+      ],
+      "fabric": "linen",
+      "age_group": [
+        "25-34",
+        "35-44"
+      ],
+      "trend_tags": [
+        "classic",
+        "budget-pick"
+      ],
+      "occasion": [
+        "office",
+        "college",
+        "casual"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=46",
+      "rating": 4.7,
+      "review_count": 655,
+      "in_stock": true,
+      "value_score": 8.3
+    },
+    {
+      "id": "product-047",
+      "name": "A-Line Kurta",
+      "brand": "Biba",
+      "category": "ethnic",
+      "sub_category": "kurta",
+      "gender": "unisex",
+      "price": 2404,
+      "original_price": 3160,
+      "discount_percent": 24,
+      "sizes_available": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "grey",
+        "maroon",
+        "white"
+      ],
+      "fabric": "cotton-blend",
+      "age_group": [
+        "18-24",
+        "25-34"
+      ],
+      "trend_tags": [
+        "budget-pick",
+        "summer-2026"
+      ],
+      "occasion": [
+        "casual",
+        "weekend",
+        "festive"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=47",
+      "rating": 4.4,
+      "review_count": 1501,
+      "in_stock": true,
+      "value_score": 8.9
+    },
+    {
+      "id": "product-048",
+      "name": "Printed Kurta",
+      "brand": "W",
+      "category": "ethnic",
+      "sub_category": "kurta",
+      "gender": "unisex",
+      "price": 1001,
+      "original_price": 1077,
+      "discount_percent": 7,
+      "sizes_available": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "grey",
+        "yellow",
+        "pink"
+      ],
+      "fabric": "denim",
+      "age_group": [
+        "25-34",
+        "35-44"
+      ],
+      "trend_tags": [
+        "trending",
+        "minimalist"
+      ],
+      "occasion": [
+        "weekend",
+        "outing",
+        "office"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=48",
+      "rating": 4.0,
+      "review_count": 984,
+      "in_stock": true,
+      "value_score": 8.6
+    },
+    {
+      "id": "product-049",
+      "name": "Palazzo Pants",
+      "brand": "Anokhi",
+      "category": "casual",
+      "sub_category": "bottom",
+      "gender": "female",
+      "price": 2451,
+      "original_price": 2637,
+      "discount_percent": 7,
+      "sizes_available": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "black",
+        "blue",
+        "beige"
+      ],
+      "fabric": "linen",
+      "age_group": [
+        "18-24",
+        "25-34"
+      ],
+      "trend_tags": [
+        "summer-2026",
+        "minimalist"
+      ],
+      "occasion": [
+        "outing",
+        "office",
+        "weekend"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=49",
+      "rating": 3.8,
+      "review_count": 856,
+      "in_stock": true,
+      "value_score": 9.1
+    },
+    {
+      "id": "product-050",
+      "name": "Straight Jeans",
+      "brand": "Anokhi",
+      "category": "casual",
+      "sub_category": "bottom",
+      "gender": "unisex",
+      "price": 1359,
+      "original_price": 1837,
+      "discount_percent": 26,
+      "sizes_available": [
+        "36",
+        "37",
+        "38",
+        "39",
+        "40"
+      ],
+      "colors": [
+        "yellow",
+        "green",
+        "white"
+      ],
+      "fabric": "denim",
+      "age_group": [
+        "18-24",
+        "25-34"
+      ],
+      "trend_tags": [
+        "trending",
+        "classic"
+      ],
+      "occasion": [
+        "office",
+        "festive",
+        "college"
+      ],
+      "image_url": "https://picsum.photos/600/800?random=50",
+      "rating": 4.7,
+      "review_count": 1010,
+      "in_stock": true,
+      "value_score": 7.5
+    }
+  ]
+}

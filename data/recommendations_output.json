@@ -1,0 +1,102 @@
+{
+  "version": "1.0",
+  "request": {
+    "user_id": "usr-001",
+    "budget": 2000,
+    "age_group": "18-24",
+    "style_prefs": ["ethnic", "casual"],
+    "occasion": "college",
+    "generated_at": "2026-06-11T10:06:00Z"
+  },
+  "outfits": [
+    {
+      "outfit_id": "out-001",
+      "name": "Festive day look",
+      "rank": 1,
+      "items": [
+        {
+          "item_id": "kurta-floral-001",
+          "name": "Floral kurta set",
+          "price": 899,
+          "role": "top"
+        },
+        {
+          "item_id": "dupatta-mirror-001",
+          "name": "Mirror work dupatta",
+          "price": 450,
+          "role": "accessory"
+        },
+        {
+          "item_id": "juttis-embroidered-001",
+          "name": "Embroidered juttis",
+          "price": 750,
+          "role": "footwear"
+        }
+      ],
+      "total_price": 2099,
+      "within_budget": false,
+      "budget_note": "₹99 over budget. Skip dupatta to bring total to ₹1649.",
+      "trend_match_score": 9.1,
+      "occasion_fit": ["festive", "college", "farewell"],
+      "ai_reason": "The floral kurta with mirror dupatta is the top trending ethnic-fusion look for age 18–24 this summer. Juttis complete it without over-dressing."
+    },
+    {
+      "outfit_id": "out-002",
+      "name": "Casual weekend",
+      "rank": 2,
+      "items": [
+        {
+          "item_id": "coord-linen-001",
+          "name": "Linen co-ord set",
+          "price": 1199,
+          "role": "full-outfit"
+        },
+        {
+          "item_id": "sneakers-canvas-001",
+          "name": "White canvas sneakers",
+          "price": 1299,
+          "role": "footwear"
+        }
+      ],
+      "total_price": 2498,
+      "within_budget": false,
+      "budget_note": "Sneakers push over budget. Linen co-ord alone at ₹1199 is well within budget and works with existing footwear.",
+      "trend_match_score": 9.4,
+      "occasion_fit": ["casual", "brunch", "college", "farewell"],
+      "ai_reason": "The linen co-ord is the single most trending minimalist item for 18–24 this season. Versatile enough for daily wear and farewell parties."
+    },
+    {
+      "outfit_id": "out-003",
+      "name": "Office ethnic",
+      "rank": 3,
+      "items": [
+        {
+          "item_id": "shirt-blockprint-001",
+          "name": "Block print shirt",
+          "price": 599,
+          "role": "top"
+        },
+        {
+          "item_id": "palazzo-cotton-001",
+          "name": "Cotton palazzo pants",
+          "price": 649,
+          "role": "bottom"
+        },
+        {
+          "item_id": "juttis-embroidered-001",
+          "name": "Embroidered juttis",
+          "price": 750,
+          "role": "footwear"
+        }
+      ],
+      "total_price": 1998,
+      "within_budget": true,
+      "budget_note": "₹2 under budget. Best value complete outfit.",
+      "trend_match_score": 8.8,
+      "occasion_fit": ["office", "college", "casual"],
+      "ai_reason": "A classic ethnic-casual combination. Handcrafted block print is trending in the sustainable fashion segment. Perfect for office or college."
+    }
+  ],
+  "model_used": "claude-sonnet-4-6",
+  "tokens_used": 812
+}

@@ -1,0 +1,61 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-06-11",
+  "season": "summer-2026",
+  "trends_by_age_group": {
+    "16-18": {
+      "label": "Gen Z",
+      "top_styles": ["streetwear", "y2k-revival", "oversized", "cottagecore"],
+      "top_categories": ["casual", "footwear", "accessories"],
+      "trending_items": ["tshirt-oversized-001", "sneakers-canvas-001"],
+      "trending_colors": ["lavender", "lime-green", "white", "black"],
+      "trending_fabrics": ["cotton", "denim", "mesh"],
+      "avoid_styles": ["heavy-ethnic", "formal"]
+    },
+    "18-24": {
+      "label": "College & Young Professional",
+      "top_styles": ["ethnic-fusion", "minimalist", "smart-casual", "boho"],
+      "top_categories": ["ethnic", "casual", "coord-sets"],
+      "trending_items": ["coord-linen-001", "kurta-floral-001", "juttis-embroidered-001", "shirt-blockprint-001"],
+      "trending_colors": ["sage-green", "dusty-rose", "mustard", "teal", "off-white"],
+      "trending_fabrics": ["linen", "cotton", "silk-blend"],
+      "avoid_styles": ["heavy-formal", "overdone-embroidery"]
+    },
+    "25-34": {
+      "label": "Working Professional",
+      "top_styles": ["office-ethnic", "smart-casual", "indo-western", "minimalist"],
+      "top_categories": ["ethnic", "casual", "footwear"],
+      "trending_items": ["saree-casual-001", "palazzo-cotton-001", "jeans-straight-001", "shirt-blockprint-001"],
+      "trending_colors": ["navy", "maroon", "olive", "beige", "rust"],
+      "trending_fabrics": ["cotton", "linen", "chiffon"],
+      "avoid_styles": ["heavy-streetwear", "loud-prints"]
+    },
+    "35-44": {
+      "label": "Mature Professional",
+      "top_styles": ["classic-ethnic", "formal", "elegant-casual"],
+      "top_categories": ["ethnic", "sarees", "formal"],
+      "trending_items": ["saree-casual-001", "palazzo-cotton-001"],
+      "trending_colors": ["teal", "maroon", "gold", "navy", "deep-green"],
+      "trending_fabrics": ["silk", "cotton", "georgette"],
+      "avoid_styles": ["streetwear", "oversized", "distressed"]
+    },
+    "45+": {
+      "label": "Classic",
+      "top_styles": ["traditional", "classic-ethnic", "formal"],
+      "top_categories": ["sarees", "ethnic", "formal"],
+      "trending_items": ["saree-casual-001"],
+      "trending_colors": ["maroon", "gold", "navy", "deep-purple"],
+      "trending_fabrics": ["silk", "cotton", "georgette", "crepe"],
+      "avoid_styles": ["streetwear", "western-casual", "crop-tops"]
+    }
+  },
+  "global_trending_tags": ["summer-2026", "sustainable", "handcrafted", "minimalist", "ethnic-fusion"],
+  "occasion_map": {
+    "college": ["casual", "ethnic-fusion", "streetwear"],
+    "office": ["office-ethnic", "smart-casual", "formal"],
+    "festive": ["ethnic", "traditional", "indo-western"],
+    "casual": ["casual", "streetwear", "minimalist"],
+    "party": ["western", "indo-western", "boho"],
+    "farewell": ["ethnic-fusion", "smart-casual", "minimalist"]
+  }
+}
