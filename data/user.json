@@ -1,34 +1,28 @@
 {
-  "user_id": "usr-20260617160331",
-  "name": "Prem",
-  "age": 24,
+  "user_id": "usr-20260617203605",
+  "name": "Kevin",
+  "age": 23,
   "age_group": "18-24",
   "gender": "male",
   "location": {
-    "city": "Kolkata",
+    "city": "Alibagh",
     "state": "",
     "currency": "INR"
   },
   "budget": {
-    "total": 4800,
-    "per_item_max": 1200,
+    "total": 50000,
+    "per_item_max": 5000,
     "flexibility_percent": 10
   },
   "style_preferences": {
-    "categories": [
-      "western"
-    ],
+    "categories": [],
     "avoid": [],
     "favorite_colors": [],
     "favorite_fabrics": [],
-    "occasions": [
-      "college",
-      "casual",
-      "office"
-    ]
+    "occasions": []
   },
   "body_profile": {},
   "photo_path": "",
-  "created_at": "2026-06-17T10:33:31.761617+00:00",
-  "last_active": "2026-06-17T10:33:31.761617+00:00"
+  "created_at": "2026-06-17T15:06:05.061356+00:00",
+  "last_active": "2026-06-17T15:06:05.061356+00:00"
 }

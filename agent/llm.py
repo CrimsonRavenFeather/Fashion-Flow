@@ -12,7 +12,7 @@ def create_llm():
 
     os.environ["GROQ_API_KEY"]=os.getenv("GROQ_API_KEY")
  
-    # llm = ChatGroq(model="openai/gpt-oss-20b")
-    llm = ChatGroq(model="openai/gpt-oss-120b")
+    llm = ChatGroq(model="openai/gpt-oss-20b")
+    # llm = ChatGroq(model="openai/gpt-oss-120b")
     llm_with_tools = llm.bind_tools(tools)
     return llm_with_tools 
