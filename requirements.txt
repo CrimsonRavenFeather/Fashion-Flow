@@ -6,4 +6,3 @@ scikit-learn
 langgraph
 langchain_groq
 dotenv
-streamlit
